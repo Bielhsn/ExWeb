@@ -1,3 +1,4 @@
+// CRIANDO UMA LISTA DE PRODUTOS
 export const listaProdutos = [
     {
         id: 1,
