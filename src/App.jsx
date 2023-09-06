@@ -5,6 +5,7 @@ import Rodape from './components/Rodape'
 
 function App() {
 
+  // RECEBENDO AS PAGINAS
   return (
     <>
       <Menu/>
