@@ -3,6 +3,8 @@ import { listaProdutos } from '../../components/listaProdutos'
 
 export default function Produtos(){
 
+    // PASSANDO VALORES PELA URI
+
     return(
         <main>
             <h1>Produtos</h1>
