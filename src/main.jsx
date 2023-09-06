@@ -12,6 +12,7 @@ import Error from './routes/Error/index.jsx';
 import EditarProduto from './routes/EditarProdutos/index.jsx';
 
 // CONFIGURANDO ROTAS
+
 const router = createBrowserRouter([
   {
     path: '/',
