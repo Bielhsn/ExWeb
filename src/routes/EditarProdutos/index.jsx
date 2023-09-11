@@ -1,8 +1,6 @@
 import { useParams } from "react-router-dom"
 import { listaProdutos } from "../../components/listaProdutos"
 
-
-
 export default function EditarProduto(){
     
     const lista = listaProdutos
@@ -16,8 +14,6 @@ export default function EditarProduto(){
         alert('Produto: ${produto.nome} editado com sucesso!')
         return navegacao ('/produto')
     }
-
-
 
     return(
         <main>
