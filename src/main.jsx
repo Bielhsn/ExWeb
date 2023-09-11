@@ -5,7 +5,7 @@ import './index.css'
 
 //IMPORTAÇÕES
 
-import {createBrowserRouter, RouterProvider} from 'react-router-dom';
+import {createBrowserRouter, RouterProvider, Navigate} from 'react-router-dom';
 import Home from './routes/Home/index.jsx';
 import Produtos from './routes/Produtos/index.jsx';
 import Error from './routes/Error/index.jsx';
@@ -21,7 +21,8 @@ const router = createBrowserRouter([
     children: [
       {path: '/', element: <Home/>},
       {path: '/produtos', element: <Produtos/>},
-      {path: '/editar/produtos/ :id', element: <EditarProduto/>}
+      {path: '/editar/produtos/ :id', element: <EditarProduto/>},
+      {path: '/antiga', element: <Navigate to='/' />}
     ]
   }
 ]);
