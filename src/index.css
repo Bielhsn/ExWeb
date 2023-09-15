@@ -55,6 +55,30 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+#t_promo{
+  float: left;
+  display: flex;
+}
+
+#t{
+  margin-left: 10px;
+}
+
+#desc{
+  display: flex;
+  float: left;
+  margin-top: 50px;
+  margin-left: -140px;
+}
+#m_promo{
+  float: left;
+  display: flex;
+}
+
+#promo{
+  text-decoration: line-through;
+} 
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -66,4 +90,5 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+
 }

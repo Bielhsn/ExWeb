@@ -11,7 +11,7 @@ export default function EditarProduto(){
     const prod = proc[0]
 
     const salvar = () => {
-        alert('Produto: ${produto.nome} editado com sucesso!')
+        alert(`Produto: ${produto.nome} editado com sucesso!`)
         return navegacao ('/produto')
     }
 

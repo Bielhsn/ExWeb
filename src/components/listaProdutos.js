@@ -3,7 +3,8 @@ export const listaProdutos = [
     {
         id: 1,
         nome: 'Teclado',
-        preco: 150
+        preco: 150,
+        img:"https://picsum.photos/100/100"
     },
     {
         id: 2,
